@@ -16,7 +16,7 @@ Los agentes de programación con IA aceleran radicalmente la escritura de códig
 
 ### Flujo de Arquitectura
 
-mermaid
+```mermaid
 flowchart LR
     A[Especificación y Tests Humanos] --> B{Hook de Seguridad Pre-Ejecución}
     B -->|Aprobado| C[Ejecución Agente IA: Claude Code / Cursor / Antigravity]
@@ -24,5 +24,5 @@ flowchart LR
     C --> D{Gate Determinista de Tests y Zero-Trust}
     D -->|Tests Fallan / Desviación| C
     D -->|Tests Pasan| E[Aprobación Humana Interactiva]
-    E --> F[Commit Verificado / Checkpoint]# Agentic-tdd-framework
-Executable methodology, security hooks, and interactive Human-in-the-Loop orchestrator for AI-assisted software development (Claude Code, Cursor, Antigravity) under strict TDD and Zero-Trust architecture.
+    E --> F[Commit Verificado / Checkpoint]
+```
