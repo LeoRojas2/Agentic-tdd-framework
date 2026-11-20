@@ -16,7 +16,7 @@ Los agentes de programación con IA aceleran radicalmente la escritura de códig
 
 ### Flujo de Arquitectura
 
-```mermaid
+mermaid
 flowchart LR
     A[Especificación y Tests Humanos] --> B{Hook de Seguridad Pre-Ejecución}
     B -->|Aprobado| C[Ejecución Agente IA: Claude Code / Cursor / Antigravity]
